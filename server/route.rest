@@ -1,0 +1,64 @@
+GET http://localhost:3000/drinks
+
+###
+
+GET http://localhost:3000/drinks/6653d30842c3cff750500591
+
+###
+PATCH  http://localhost:3000/drinks/667508e2cecbf7f5c99ec024
+Content-Type: application/json
+
+{
+  
+    "name": "Matcha Fresh Milk"
+}
+
+###
+
+DELETE http://localhost:3000/drinks/6676245f5276cdcd76914187
+
+
+###
+
+GET http://localhost:3000/category
+
+###
+
+DELETE  http://localhost:3000/category/667624345276cdcd76914179
+
+
+###
+
+GET http://localhost:3000/toppings
+
+###
+
+POST http://localhost:3000/toppings
+Content-Type: application/json
+
+{
+    "name": "Taro Balls",
+    "price":0.75
+  
+}
+
+###
+PATCH  http://localhost:3000/order/current
+Content-Type: application/json
+
+{
+  
+    "subtotalPrice":0
+}
+
+
+###
+GET  http://localhost:3000/order
+
+###
+DELETE   http://localhost:3000/order/6666574731423e4572831ba5
+
+###
+
+POST  http://localhost:3000/order
+  

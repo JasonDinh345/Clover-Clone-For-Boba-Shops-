@@ -1,0 +1,7 @@
+dupe add item
+when edit order, it keeps the order of drinks
+make code good
+swaping categories
+make a way for no reload when add item or click off
+EDIT MODE
+responviseness

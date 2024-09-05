@@ -1,0 +1,64 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+#main{
+    display: flex;
+    position:absolute;
+    width:100%;
+    height:90%;
+    left:0; 
+    bottom: 0;
+    
+    
+}
+.nav{
+    width:100%;
+    height:10%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    position:absolute;
+    left:50%;
+    top:5%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    z-index: 10;
+}
+.rightNav{
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left:2%;
+    gap: 5%;
+}
+.rightNav p{
+    width:50%;
+}
+.homeButton{
+    width:50px;
+    height: 50px;
+    margin: 0;
+    
+    
+}
+
+
+
+.leftNav{
+    width: 50%;
+    height: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right:2%;
+    gap: 5%;
+}
